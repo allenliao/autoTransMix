@@ -1,0 +1,21 @@
+https://qiita.com/LeftLetter/items/615d910c24b3caf3d09f
+
+download IEDriverServer_x64_3.14.0.zip
+https://www.seleniumhq.org/download/
+
+make dir in C:\seleniumDriver
+copy IEDriverServer.exe to it
+
+PATH setting C:\seleniumDriver\IEDriverServer.exe
+
+CMD:
+cd to project folder
+npm install selenium-webdriver
+npm install iedriver
+
+npm install -g webdriver-manager
+webdriver-manager update
+webdriver-manager start --ie
+
+RUN:
+node autoTrans

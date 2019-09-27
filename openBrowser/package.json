@@ -1,0 +1,14 @@
+{
+  "name": "openbroswer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-index": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "4.0.0-alpha.4"
+  }
+}
