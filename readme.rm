@@ -1,21 +1,39 @@
 https://qiita.com/LeftLetter/items/615d910c24b3caf3d09f
 
-download IEDriverServer_x64_3.14.0.zip
+下載 IEDriverServer.exe download IEDriverServer_x64_3.14.0.zip
 https://www.seleniumhq.org/download/
 
+新增資料夾 並且放置IEDriverServer.exe
 make dir in C:\seleniumDriver
 copy IEDriverServer.exe to it
 
-PATH setting C:\seleniumDriver\IEDriverServer.exe
+環境變數設置
+PATH setting C:\seleniumDriver\
 
-CMD:
+IE保護模式設訂
+Internet  Local Intranet, Trusted sites, and Restricted sites.都要打開保護模式(或試都關掉)總之都要一致
+Open Internet Explorer
+Go to Tools menu – Internet Options
+Select Security Tab
+In Select a zone to view or change security settings choose Internet and select the check box of Enable protected mode (requires restarting Internet Explorer).
+Similarly, select the check box of Enable protected mode (requires restarting Internet Explorer) for other three such as Local Intranet, Trusted sites, and Restricted sites.
+
+安裝(用系統管理原權限執行)CMD:
 cd to project folder
 npm install selenium-webdriver
 npm install iedriver
-
 npm install -g webdriver-manager
+
+SERVER啟動 指令(用系統管理原權限執行)CMD:
 webdriver-manager update
 webdriver-manager start --ie
 
 RUN:
 node autoTrans
+
+語法:
+https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
+
+https://selenium-python-zh.readthedocs.io/en/latest/locating-elements.html#xpath
+
+https://www.guru99.com/handling-iframes-selenium.html
