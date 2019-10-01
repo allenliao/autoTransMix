@@ -1,6 +1,18 @@
-https://qiita.com/LeftLetter/items/615d910c24b3caf3d09f
 
-下載 IEDriverServer.exe download IEDriverServer_x64_3.14.0.zip
+
+https://ibsbjstar.ccb.com.cn/CCBIS/V6/common/login.jsp
+leo5899
+fjp598899
+600310
+jk799832
+
+民生银行 
+陈智铭 
+6216911304021889
+
+
+下載 IEDriverServer.exe download IEDriverServer_x32_3.14.0.zip
+*注意* 下載32位元輸入文字才會快
 https://www.seleniumhq.org/download/
 
 新增資料夾 並且放置IEDriverServer.exe
@@ -32,8 +44,41 @@ RUN:
 node autoTrans
 
 語法:
+
+XPATH 說明+範例：https://www.guru99.com/xpath-selenium.html#1
+
 https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
 
 https://selenium-python-zh.readthedocs.io/en/latest/locating-elements.html#xpath
 
 https://www.guru99.com/handling-iframes-selenium.html
+
+//a[text()='转账汇款']//a[text()='转账']
+
+解決輸入文字太慢問題
+http://automate-apps.com/selenium-webdriver-typing-very-slow-in-text-field-on-internet-explorer/
+
+安裝設置大綱:
+https://qiita.com/LeftLetter/items/615d910c24b3caf3d09f
+
+
+
+sikulix 安裝心得 ****************************
+
+建一個 資料夾C:\sikulix
+下載
+https://raiman.github.io/SikuliX1/downloads.html
+
+sikulix.jar
+jython-standalone-2.7.1.jar
+依照"Needed for scripting support in the IDE and running scripts from commandline"的 指示 兩個 JAR都放在同一個 資料夾
+執行java -jar C:\sikulix\sikulix.jar
+
+就裝好了
+
+使用教學：
+http://sikulix.com/quickstart/#qs2
+
+要能正確貼讓簡體中文要把WINDOWS 設成簡體中文
+
+執行：java -jar C:\sikulix\sikulix.jar -r simKey.py --args jk799832
