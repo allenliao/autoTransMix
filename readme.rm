@@ -76,7 +76,7 @@ http://sikulix.com/quickstart/#qs2
 執行：java -jar C:\sikulix\sikulix.jar -r simKey.py --args jk799832
 
 
-
+加上飛易來 USB 操作 解決ACTIVEX 防止鍵盤機器人問題 ****************************
 CmdGhostUSB 要放C槽
 呼叫範例：C:\CmdGhostUSB\CmdGhost.exe "Google - Internet Explorer" "4,5,57,4,5" 
 輸出>>abAB
