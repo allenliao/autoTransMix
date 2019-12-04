@@ -61,6 +61,11 @@ var escapeShell = function(cmd) {
   await driver.findElement(By.xpath("//input[@type='submit']")).click();
   await console.log("call sikulix");
   const { stdout, stderr } = await exec(escapeShell('java -jar C:/\sikulix/\sikulix.jar -r simKey.py --args jk7998321')).catch((e)=>log(e));
+
+  //const { stdout, stderr } = await exec(escapeShell('C:/\CmdGhostUSB/\CmdGhost.exe "Google - Internet Explorer" "4,5,57,4,5"')).catch((e)=>log(e));
+  //文中+飛易來盒子tool
+
+
   await console.log(stdout);
 
   await console.log("sikulix done");

@@ -74,3 +74,9 @@ http://sikulix.com/quickstart/#qs2
 要能正確貼讓簡體中文要把WINDOWS 設成簡體中文
 
 執行：java -jar C:\sikulix\sikulix.jar -r simKey.py --args jk799832
+
+
+
+CmdGhostUSB 要放C槽
+呼叫範例：C:\CmdGhostUSB\CmdGhost.exe "Google - Internet Explorer" "4,5,57,4,5" 
+輸出>>abAB
